@@ -17,8 +17,8 @@ variable "environment" {
 }
 
 variable "label_order" {
-  type = list(any)
-  default = []
+  type        = list(any)
+  default     = []
   description = "label order, e.g. `name`,`application`."
 }
 
