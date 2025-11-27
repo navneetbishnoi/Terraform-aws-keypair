@@ -12,5 +12,5 @@ module "public_keypair" {
   name        = "public-key"
   environment = "test"
   label_order = ["name", "environment"]
-  public_key  = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFoLb9ZYPCUIMtIWkT9rJUlIdJiw2VZ3C4V6LL+1Rrsa roshan@roshan"
+  public_key  = "ssh-exxxxxxxxxxxxxxxxxxxxxxxxxxxxxxRrsa xxxxxxxxxxxxn"
 }
